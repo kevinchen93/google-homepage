@@ -1,0 +1,307 @@
+* {
+
+}
+
+html {
+	height: 100%;
+	margin: 0;
+	display: block;
+}
+
+body {
+	background: #fff;
+	color: #222;
+	display: block;
+	font-size: small;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.ctr-p {
+	margin: 0 auto;
+	min-width: 980px;
+}
+
+#main {
+
+}
+
+div {
+	display: block;
+}
+
+/* VIEWPORT'S DIVS/BOXES
+	-banner
+	-main content
+	-search form 
+	-footer                     */
+
+
+/* Navigation/Banner start */
+
+#viewport {
+	position: relative;
+	top: 0;
+	width: 100%;
+	min-height: 100%;
+}
+
+div#viewport.ctr-p {
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+#gb {
+	top: -295px;
+	right: 0;
+	width: 100%;
+	position: relative;
+	top: 8px;
+	font-size: 13px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+    display: inline-block;
+    font-size: 13px;
+    color: #000;
+    padding-left: 15px;
+    opacity: 0.75;
+    line-height: 15px;
+}
+
+a {
+	color: #000;
+	font-family: Arial, sans-serif;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a: visited {
+	color: #000;
+	text-decoration: none;
+}
+
+/* Navigation/Banner end */
+
+/* Main Content area start */
+
+center {
+	display: block;
+	text-align: -webkit-center;
+}
+
+.content {
+	padding-bottom: 35px;
+}
+
+.gif-image {
+	margin-top: 65px;
+}
+
+/* Main Content area end */
+
+/* refer to #searchform on google site */
+form {
+	display: block;
+}
+
+#searchform {
+	margin-top: 0;
+	position: absolute;
+	top: 311px;
+	width: 100%;
+	min-width: 980px;
+	z-index: 103; 
+}
+
+#tsf {
+	margin: 0 auto;
+	width: 833px;
+}
+
+.tsf {
+	background: none;
+}
+
+.tsf-p {
+	margin: 20px 0 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding-left: 173px;
+	padding-right: 173px;
+	padding-top: 8px;
+	position: relative;
+}
+
+.sfibbbc {
+	padding-bottom: 2px;
+	padding-top: 3px;
+	margin-top: -3px;
+	width: 632px;
+}
+
+.sbibod{
+	background-color: #fff;
+	height: 44px;
+	vertical-align: top;
+	border-radius: 2px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+	transition: box-shadow 200ms;
+	max-width: 484px;
+}
+
+#sfdiv {
+	max-width: 484px;
+}
+
+.sbico-c {
+	/* display: none; */
+	background: transparent;
+	border: 0;
+	float: right;
+	height: 44px;
+	line-height: 44px;
+	margin-top: -1px;
+	outline: 0;
+	padding-right: 16px;
+	position: relative;
+	top: -1px;
+}
+
+.lst-c {
+	overflow: hidden;
+}
+
+.sbib_a {
+	vertical-align: top;
+	background: #fff;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.sbib_c {
+	float:right;
+	vertical-align: top;
+}
+
+.sbib_b{
+	padding-left: 16px;
+	height: 100%;
+	padding: 6px 9px 0;
+}
+
+.gsst_b {
+	font-size: 16px;
+	padding: 0 2px;
+	position: relative;
+	white-space: nowrap;
+}
+.gsfi {
+	font: 16px arial, sans-serif;
+	line-height: 34px;
+	height: 34px !important;
+}
+
+/* Search bar area end*/
+
+/* Buttons start */
+input[type="submit"] {
+	align-items: flex-start;
+	height: 36px;
+	line-height: 27px;
+	background-color: #f2f2f2;
+	border-radius: 2px;
+	border: none;
+	color: #757575;
+	cursor: default;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	margin: 11px 4px;
+	padding: 0 16px;
+	text-align: center;
+	min-width: 54px;
+	font-size: 0.85rem;
+}
+
+input:hover {
+	background-color: #f8f8f8;
+	border: 1px solid #c6c6c6;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	color: #222;
+}
+
+/* Buttons end */
+/* refer to input#lst-ib.gsfi */
+
+/* Footer area start */ 
+
+#footer{
+	bottom: 0;
+	font-size: 10pt;
+	height: 35px;
+	position: absolute;
+	width: 100%;
+}
+
+
+#fbarcnt {
+	display: block;
+}
+
+#footcnt {
+
+}
+
+
+._dQc {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+}
+
+._E2 {
+}
+
+#fbar {
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	line-height: 40px;
+	min-width: 980px;
+}
+
+.fbar {
+	font-size: small;
+}
+
+#fsr {
+	margin-right: 30px;
+	float: right;
+	white-space: nowrap;
+}
+
+#footer a {
+	color: #666;
+	display: inline-block;
+}
+
+.fbar a {
+	white-space: nowrap;
+}
+
+._Gs {
+	padding-left: 27px;
+	margin: 0 !important;
+}
+
+/* Footer area end*/ 
