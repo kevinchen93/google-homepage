@@ -1,7 +1,7 @@
 # Google Homepage Project
 
 This purpose of this project was to deconstruct and rebuild a web page as accurately as possible.
-The provided web page was the [google homepage](https://www.google.com/) at the time.
+The provided web page was the [Google homepage](https://www.google.com/) at the time.
 
 This is a project from [The Odin Project](https://www.theodinproject.com/courses/web-development-101/lessons/html-css).
 
