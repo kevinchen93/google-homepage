@@ -1,14 +1,14 @@
 # Google Homepage Project
 
-This purpose of this project was to deconstruct and rebuild a webpage as accurately as possible.
-The provided webpage was the [google homepage](https://www.google.com/) at the time.
+This purpose of this project was to deconstruct and rebuild a web page as accurately as possible.
+The provided web page was the [google homepage](https://www.google.com/) at the time.
 
 This is a project from [The Odin Project](https://www.theodinproject.com/courses/web-development-101/lessons/html-css).
 
 
 ## Pre-Project Thoughts
 
-Note: At this point I only have basic HTML, CSS, Chrome Dev Tool, and Git skills.
+Note: At this point I only have basic HTML, CSS, Chrome Dev Tools, and Git skills.
 I will do my best!
 
 ## Post-Project Thoughts
